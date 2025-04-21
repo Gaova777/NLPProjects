@@ -1,0 +1,9 @@
+[server]
+runOnSave = true
+
+[watch]
+usePolling = true
+watcherType = "poll"
+
+# 👇 Le indicamos que ignore el módulo conflictivo
+watchIgnore = ["torch"]
